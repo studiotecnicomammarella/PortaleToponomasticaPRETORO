@@ -389,7 +389,7 @@
               viaSelect.innerHTML = '';
               ol.ext.element.create('OPTION', { text: 'VIA -- tutte --', value: '', parent: viaSelect });
               vie.forEach(function(v) {
-                ol.ext.element.create('OPTION', { text: 'VIA ' + v, value: v, parent: viaSelect });
+                ol.ext.element.create('OPTION', { text: v, value: v, parent: viaSelect });
               });
             }
 
